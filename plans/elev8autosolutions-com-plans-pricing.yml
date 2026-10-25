@@ -1,0 +1,19 @@
+generated: '2026-10-25'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://www.elev8automotive.com/plans
+sources:
+- https://www.elev8automotive.com/plans
+name: EAS Innovations Inc pricing
+audience: business-product
+pricing_basis: per-seat
+plans:
+- name: Full-suite DMS+
+  price_text: $ 399
+  price: 399
+  description: Get started for just $399/mo, covering your first 3 users
+- name: Additional Users
+  price_text: $ 49
+  price: 49
+  description: Beyond your first 3 users, each additional user adds just $49/mo to your plan
+docs: https://www.elev8automotive.com/plans

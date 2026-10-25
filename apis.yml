@@ -1,25 +1,72 @@
 aid: elev8autosolutions-com
+
 name: EAS Innovations Inc
-description: 'EAS Innovations Inc is a company surfaced via the API Evangelist harvest backlog (source:
-  vc-portfolio; backed by 500-global) and added to the network as a stub for full-pipeline profiling.'
+
+description: 'EAS Innovations Inc, operating under the brand Elev8, provides a comprehensive dealer management system for automotive dealerships. Their platform streamlines operations across accounting, inventory, CRM, loan servicing, and more, targeting independent auto dealers and finance companies. Elev8 offers real‑time data, integrated tools, and cloud‑based access to improve efficiency and growth.'
+
 url: https://raw.githubusercontent.com/api-evangelist/elev8autosolutions-com/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-25 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-25'
+
 modified: '2026-10-25'
+
 tags:
+- Automotive
+- DealerManagement
+- SaaS
+- B2B
+- Platform
 - Company
-apis: []
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- 500-global
+
 common:
+- type: Plans
+  url: plans/elev8autosolutions-com-plans-pricing.yml
+- type: Hosts
+  url: hosts/elev8autosolutions-com-hosts.yml
+- type: Vendors
+  url: vendors/elev8autosolutions-com-vendors.yml
+- type: Newsroom
+  url: https://www.elev8automotive.com/news
+- type: ChangeLog
+  url: https://www.elev8automotive.com/template-info/changelog
+- type: DomainSecurity
+  url: security/elev8autosolutions-com-domain-security.yml
 - type: Website
   url: https://elev8autosolutions.com
+
+- type: DeveloperPortal
+  url: https://www.elev8automotive.com/
+- type: Documentation
+  url: https://www.elev8automotive.com/
+- type: GettingStarted
+  url: https://www.elev8automotive.com/about
+- type: Pricing
+  url: https://www.elev8automotive.com/plans
+- type: Support
+  url: https://www.elev8automotive.com/contact
+
+apis: []
+
+x-backed-by:
+- 500-global
+x-enrichment:
+  date: '2026-10-25'
+  status: enriched
+  artifacts_added: 8
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

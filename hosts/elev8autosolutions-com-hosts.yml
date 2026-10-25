@@ -1,0 +1,69 @@
+generated: '2026-10-25'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 4
+  own: 2
+  other_domain: 2
+  platform: 0
+  roles:
+  - api
+  - portal
+  - website
+hosts:
+- host: api.elev8automotive.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: elev8automotive.com
+  role: api
+  relation: other-domain
+- host: api.elev8autosolutions.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: elev8autosolutions.com
+  role: api
+  relation: own
+- host: elev8autosolutions.com
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - Website
+  serves:
+  - cdn
+  vendor: cloudflare
+  registrable_domain: elev8autosolutions.com
+  role: website
+  relation: own
+- host: www.elev8automotive.com
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - docs-index
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - Newsroom
+  - ChangeLog
+  - DeveloperPortal
+  - Documentation
+  - GettingStarted
+  - Pricing
+  - Support
+  serves:
+  - docs
+  - hosting
+  vendor: webflow
+  registrable_domain: elev8automotive.com
+  role: portal
+  relation: other-domain

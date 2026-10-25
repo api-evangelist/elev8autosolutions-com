@@ -1,0 +1,15 @@
+generated: '2026-10-25'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: elev8autosolutions.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Jan 14 06:12:17 2027 GMT
+  hsts: false
+domains:
+- domain: elev8autosolutions.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: false
